@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import './App.css';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -7,48 +8,67 @@ import Expertise from "./components/Expertise";
 import Clients from "./components/Clients";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
-import { useState, useEffect } from 'react';
 
 export default function App() {
-  const [loading, setLoading] = useState(true);
-
   useEffect(() => {
-    const handleLoad = () => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 300); // extra delay for smoothness
-    };
-    window.addEventListener('load', handleLoad);
-    return () => window.removeEventListener('load', handleLoad);
+    const preloader = document.getElementById("preloader");
+    function removePreloader() {
+      if (preloader) {
+        preloader.style.opacity = "0";
+        preloader.style.transition = "opacity 0.5s ease";
+        setTimeout(() => {
+          preloader.style.display = "none";
+        }, 500);
+      }
+    }
+
+    window.onload = removePreloader;
+
+    // ✅ Fallback in case window.onload never fires (max 3 sec)
+    const fallback = setTimeout(removePreloader, 3000);
+
+    return () => clearTimeout(fallback);
   }, []);
 
   return (
     <>
-      <div className={`preloader ${loading ? '' : 'preloader--hide'}`}>
-        <div className="preloader-content">
-          <h2>Loading...</h2>
-        </div>
+      {/* Preloader */}
+      <div
+        id="preloader"
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#520E24",
+          color: "#fff",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          zIndex: 9999
+        }}
+      >
+        Loading...
       </div>
 
-      <div className={loading ? 'hidden' : ''}>
-        <Navbar />
-        <Hero />
-        <Mission />
-        <Testimonial />
-        <Expertise />
-        <Clients />
-        <Team />
-        <Contact />
-        <footer className="text-center footer-custom">
-          <div className="container">
-            <p className="mb-1">© 2025 Alvi Law Partners | All rights reserved.</p>
-            <div>
-              <a href="/terms" className="footer-link">Terms & Conditions</a> &nbsp; | &nbsp;
-              <a href="/privacy" className="footer-link">Privacy Policy</a>
-            </div>
+      <Navbar />
+      <Hero />
+      <Mission />
+      <Testimonial/>
+      <Expertise />
+      <Clients />
+      <Team />
+      <Contact />
+      <footer className="text-center footer-custom">
+        <div className="container">
+          <p className="mb-1">© 2025 Alvi Law Partners | All rights reserved.</p>
+          <div>
+            <a href="/terms" className="footer-link">Terms & Conditions</a> &nbsp; | &nbsp;
+            <a href="/privacy" className="footer-link">Privacy Policy</a>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </>
   );
 }
