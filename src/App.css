@@ -1,0 +1,293 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* ==============================
+              Navbar
+   ============================== */
+
+/* 1) Smooth hover underline for nav links */
+.custom-nav-link {
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.custom-nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #ffffff; 
+  transition: width 0.3s ease;
+}
+
+.custom-nav-link:hover::after {
+  width: 100%;
+}
+
+/* 2) Active section highlight */
+.custom-nav-link.active {
+  font-weight: 500;
+  color: #520E24; 
+}
+
+.custom-nav-link.active::after {
+  width: 100%;
+  background: #520E24; 
+}
+
+/* 3) Optional hover background */
+.custom-nav-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+/* 4) Logo shrink on scroll */
+.navbar-brand img {
+  transition: transform 0.3s ease;
+}
+
+.scrolled-logo img {
+  transform: scale(0.9);
+}
+
+/* 5) Fade-down navbar entry */
+.navbar {
+  animation: fadeInDown 0.6s ease forwards;
+}
+
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+#contact {
+  min-height: calc(100vh - 70px); /* adjust to your navbar height */ 
+}
+
+/* =============================
+      Hero Section (Homepage) 
+   ============================= */
+
+/* Overlay */
+#hero {
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 0;
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-logo {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-title {
+  animation: fadeUp 0.8s ease forwards;
+  animation-delay: 0.3s;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-subtitle {
+  animation: fadeUp 0.8s ease forwards;
+  animation-delay: 0.6s;
+  letter-spacing: 1px;
+}
+
+/* Scroll-down indicator bounce */
+.scroll-indicator span {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}
+/* ================================
+    Expertise Card Pack
+   ================================ */
+
+.expertise-card {
+  transition: all 0.3s ease;
+  opacity: 0;
+  cursor: pointer;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.expertise-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #F9F9F9;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 1rem;
+  transition: background 0.3s;
+}
+
+.expertise-card:hover .expertise-icon {
+  background: #520E24;
+}
+
+.expertise-card:hover .expertise-icon img {
+  filter: brightness(0) invert(1);
+}
+
+.read-more-btn {
+  background: #520E24;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background: #fff;
+  color: #520E24;
+  border: 1px solid #520E24;
+}
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.modal-back-btn {
+  background: #fff;
+  color: #520E24;
+  border: 1px solid #520E24;
+  transition: all 0.3s ease;
+}
+
+.modal-back-btn:hover {
+  background: #520E24;
+  color: #fff;
+}
+
+.modal-body h2 {
+  border-left: 4px solid #520E24;
+  padding-left: 1rem;
+}
+
+/* Footer styles */
+.footer-custom {
+  background-color: #520E24; 
+  color: #fff;
+  padding: 40px 0;  
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-custom .container {
+  max-width: 900px;
+}
+.img-fluid {
+  transition: transform 0.4s ease;
+}
+
+.img-fluid:hover {
+  transform: scale(1.02);
+}
+
+
+/* Simple fade-up animation for contact section */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 1s ease forwards;
+}
+
+
+
