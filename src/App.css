@@ -320,5 +320,18 @@ body {
   animation: fadeUp 1s ease forwards;
 }
 
+/* ================================
+   Fix Hero Background Attachment 
+   ================================ */
+
+#hero {
+  background-attachment: scroll; /* Safe default for all devices */
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-attachment: fixed; /* Enable parallax only on desktop */
+  }
+}
 
 

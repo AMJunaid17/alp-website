@@ -9,8 +9,9 @@ export default function Hero() {
         backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
+        // ✅ Remove fixed for mobile here:
         width: "100%",
+        minHeight: "100vh",
       }}
     >
       {/* Dark overlay */}
