@@ -25,6 +25,10 @@ export default function Navbar() {
       return;
     }
 
+      if (section === 'clients') {
+      window.dispatchEvent(new Event('clientsNavClicked'));
+    }
+
     if (navbarToggler && navbarCollapse.classList.contains('show')) {
       navbarToggler.click();
     }

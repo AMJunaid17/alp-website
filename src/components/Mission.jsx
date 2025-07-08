@@ -19,7 +19,7 @@ export default function Mission() {
           {/* Right */}
           <div className="col-12 col-lg-9">
             <p className="lead mb-4" style={{ fontStyle: 'italic' }}>
-              Our mission is to provide exceptional legal services to our clients by leveraging our expertise, dedication,and a client-centered approach.‑centered approach.
+              Our mission is to provide exceptional legal services to our clients by leveraging our expertise, dedication and a client-centered approach.
             </p>
             <p className="mb-4">
               We are committed to upholding the highest ethical standards and delivering innovative solutions to complex legal challenges. 

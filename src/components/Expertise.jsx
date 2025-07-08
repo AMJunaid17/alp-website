@@ -11,14 +11,14 @@ const expertiseItems = [
     modalTitle: "Arbitration & Dispute Resolution",
     modalContent: [
       "Arbitration and dispute resolution are alternative methods of resolving disputes outside of the traditional court system.",
-      "Arbitration is a form of alternative dispute resolution where a neutral third-party (the arbitrator) hears evidence and makes a binding decision to resolve the dispute. This process is usually quicker, more private and less formal than going to court. As per the latest amendments Arbitrations are to be completed within in a time bound manner which is 1 year whichcanbefurtherextendedby sixmonths.",
+      "Arbitration is a form of alternative dispute resolution where a neutral third-party (the arbitrator) hears evidence and makes a binding decision to resolve the dispute. This process is usually quicker, more private and less formal than going to court. As per the latest amendments Arbitrations are to be completed within in a time bound manner which is 1 year whichcanbefurtherextendedby six months.",
       "Dispute resolution refers to a broader category of processes used to resolve conflicts, which may include negotiation, mediation, and arbitration, as well as litigation. The objective of dispute resolution is to resolve conflicts in a timely, cost-effective and efficient manner. Overall, ADR can be a valuable option for resolving disputes , and increasingly being used by individuals, businesses, organizations as a way to resolve conflicts effectively and efficiently."
     ],
     services: [
-      "Drafting and reviewing arbitration clauses",
-      "Providing detailed opinions and advice",
+      "Drafting and reviewing arbitration/dispute resolution clauses in the Agreements to protect the interest of the Client.",
+      "Providing detailed opinions and advise in strategizing the arbitrations matters of the client so that the decision is passed as early as possible with minimal court interference.",
       "Mediation & Conciliation",
-      "Representing Client before the Arbitrator"
+      "Representing Client before the Arbitrator in arbitral proceedings."
     ]
   },
   {
@@ -43,13 +43,14 @@ const expertiseItems = [
     modalImage: "/insolvency.png",
     modalTitle: "Insolvency and Bankruptcy Matters",
     modalContent: [
-      "Insolvency and Bankruptcy Practice</strong><br/>Our experienced attorneys provide comprehensive legal representation under the Indian Insolvency and Bankruptcy Code (IBC) 2016. We handle complex insolvency proceedings, winding-up petitions, and asset recovery matters, representing clients before National Company Law Tribunal (NCLTs) throughout India.",
+      "Insolvency and Bankruptcy PracticeOur experienced attorneys provide comprehensive legal representation under the Indian Insolvency and Bankruptcy Code (IBC) 2016. We handle complex insolvency proceedings, winding-up petitions, and asset recovery matters, representing clients before National Company Law Tribunal (NCLTs) throughout India.",
       "Our team provides strategic guidance through these complex proceedings while ensuring compliance with both IBC and Companies Act provisions. We leverage our extensive experience to deliver optimal outcomes for our clients in matters before NCLTs across jurisdictions."
     ],
     services: [
-      "NCLT Corporate Litigation: Our practice covers various corporate disputes before the NCLT including: Strike-Off Company Matters Representation in restoration applications for wrongfully struck-off companies Appeals for company restoration within the statutory period.",
-      "Shareholder Disputes: Resolution of disputes between majority and minority shareholders Protection of shareholder rights and interests Intervention applications by directors and shareholders.",
-      "Oppression and Mismanagement: Filing and defending petitions under Sections 241-242 of Companies Act  2013, Interim relief applications during pending proceedings, resolution of management deadlocks and corporate governance issues, protecting minority shareholder interests against majority oppression."
+      "NCLT Corporate Litigation Our practice covers various corporate disputes before the NCLT including: Strike-Off Company Matters Representation in restoration applications for wrongfully struck-off companies Appeals for company restoration within the statutory period.",
+      "Shareholder Disputes Resolution of disputes between majority and minority shareholders Protection of shareholder rights and interests Intervention applications by directors and shareholders.",
+      "Oppression and Mismanagement Filing and defending petitions under Sections 241-242 of Companies Act  2013, Interim relief applications during pending proceedings, resolution of management deadlocks and corporate governance issues, protecting minority shareholder interests against majority oppression.",
+      "Our team provides strategic guidance through these complex proceedings while ensuring compliance with both IBC and Companies Act provisions. We leverage our extensive experience to deliver optimal outcomes for our clients in matters before NCLTs across jurisdictions."
     ]
   },
    {
@@ -59,7 +60,7 @@ const expertiseItems = [
     modalImage: "/Cheque.png",
     modalTitle: "Cheque Dishonour Cases",
     modalContent: [
-      "Our cheque bounce practice provides comprehensive legal representation for individuals and businesses facing cheque dishonour or bounce charges.",
+      "Our team provides strategic guidance through these complex proceedings while ensuring compliance with both IBC and Companies Act provisions. We leverage our extensive experience to deliver optimal outcomes for our clients in matters before NCLTs across jurisdictions.",
       
     ],
     services: [
@@ -78,12 +79,12 @@ const expertiseItems = [
       "We assist clients in obtaining trademark registration and help defend against any challenges to their trademark rights before Trademark Registry and the Courts to protect and maintain the integrity of their brands."
     ],
     services: [
-      "Trademark Search and Clearance",
-      "Trademark Licensing, Transfer & Assignment",
-      "Trademark Litigation",
-      "IP Counseling",
-      "IP Due Diligence",
-      "Trademark Strategy and Planning"
+      "Trademark Search and Clearance :  Conducting comprehensive searches of existing trademarks to determine the availability of a proposed trademark and advise clients on the likelihood of obtaining trademark registration.",
+      "Trademark Licensing and Transfer and Assignment : Advising clients on licensing and transferring rights in the Trademark including negotiating and drafting Trademark license and assignment agreements involved in mergers and acquisition scenarios .",
+      "Trademark Litigation : Representing clients in disputes, including lawsuits, trademark infringement, and copyright infringement before the Commercial Courts, High Court and Supreme Court.",
+      "IP Counseling : Providing strategic advice and guidance to clients on Trademark and other Intellectual Property (IP) matters, including IP infringement risks and IP monetization strategies.",
+      "IP Due Diligence : Conducting IP due diligence for clients in connection with mergers and acquisitions, financing and other business transactions.",
+      "Trademark Strategy and Planning : Providing clients with strategic planning and advice on trademark matters, including trademark portfolio planning and brand protection strategies."
     ]
   },
   {
@@ -107,14 +108,14 @@ const expertiseItems = [
     modalImage: "/Cheque.png",
     modalTitle: "Contract Drafting & Management",
     modalContent: [
-      "We work closely with our clients to understand their specific needs and goals, and provide customized solutions that meet those needs. Effective contract management can help clients minimize legal risks, improve relationships with partners and vendors, and achieve business objectives.",
+      "We work closely with Our clients to understand their specific needs and goals, and provide customized solutions that meet those needs. Effective contract management can help clients minimize legal risks, improve their relationships with their partners and vendors, and achieve their business objectives.",
       "We have strong understanding of the Contract Law as well as the relevant laws and regulations that apply to specific industry. We regularly assist Our Clients in preparing contracts that are legally binding, enforceable and aligned with the needs and goals of the Parties involved."
     ],
     services: [
-      "Contract drafting",
-      "Contract review",
-      "Contract negotiation",
-      "Contract administration",
+      "Contract drafting and management is the process of creating, reviewing, and managing agreements/ contracts between two or more parties. It involves various activities, including:",
+      "Contract drafting: Preparing, reviewing, and negotiating contract terms and conditions to ensure they are legally binding and enforceable.",
+      "Contract review: Analyzing existing contracts to identify potential legal issues, risks, and opportunities for improvement.",
+      "Contract negotiation: Negotiating contract terms and conditions with opposing parties to reach a mutually acceptable agreement.",
       "Contract dispute resolution"
     ]
   },
@@ -136,13 +137,10 @@ const expertiseItems = [
     modalImage: "/Cheque.png",
     modalTitle: "Competition Law",
     modalContent: [
-      "Competition law, also known as antitrust law, is a set of laws and regulations aimed at promoting fair competition and preventing anti-competitive behavior.",
-      "In India, the Competition Act, 2002 governs competition law and the functioning of the Competition Commission of India."
+      "Competition law, also known as antitrust law, is a set of laws and regulations aimed at promoting fair competition and preventing anti-competitive behavior, such as price fixing, market manipulation, and monopolization. In India, the Competition Act, 2002 governs competition law and the functioning of the Competition Commission of India."
     ],
     services: [
-      "Competition law investigation and compliance",
-      "Merger control advisory",
-      "Enforcement of rights under competition law"
+      "Our competition law practice provides expert legal guidance on a wide range of antitrust and competition issues. Our experienced attorneys have a deep understanding of the Competition Act, 2002 Whether you are facing a competition law investigation, seeking to enforce your rights under competition law, or advising on competition law compliance/merger control , our team is dedicated to providing effective and efficient solutions to meet your needs."
     ]
   }
 ];
