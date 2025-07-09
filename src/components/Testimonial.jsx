@@ -29,8 +29,8 @@ export default function TestimonialSection() {
           <h2
             className="position-absolute fw-bold text-white"
             style={{
-              left: "35%",
-              top: "40%",
+              left: "10%",
+              top: "30%",
               transform: "translateY(-50%)",
               zIndex: 3,
             }}
@@ -45,7 +45,7 @@ export default function TestimonialSection() {
             className="position-absolute text-white"
             style={{
               right: "10%",
-              bottom: "15%",
+              // bottom: "15%",
               maxWidth: "35%",
               zIndex: 3,
             }}
