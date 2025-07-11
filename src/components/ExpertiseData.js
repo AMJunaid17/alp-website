@@ -36,9 +36,9 @@ export const expertiseItems = [
   },
   {
     id: "insolvency",
-    icon: "/icons/insolvency.png",
+    icon: "/icons/Insolvency.png",
     title: "Insolvency and Bankruptcy Matters",
-    modalImage: "/insolvency.jpg",
+    modalImage: "/Insolvency.jpg",
     modalTitle: "Insolvency and Bankruptcy Matters",
     modalContent: [
       "Insolvency and Bankruptcy PracticeOur experienced attorneys provide comprehensive legal representation under the Indian Insolvency and Bankruptcy Code (IBC) 2016. We handle complex insolvency proceedings, winding-up petitions, and asset recovery matters, representing clients before National Company Law Tribunal (NCLTs) throughout India.",
