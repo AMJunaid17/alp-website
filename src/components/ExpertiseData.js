@@ -45,9 +45,9 @@ export const expertiseItems = [
       "Our team provides strategic guidance through these complex proceedings while ensuring compliance with both IBC and Companies Act provisions. We leverage our extensive experience to deliver optimal outcomes for our clients in matters before NCLTs across jurisdictions."
     ],
     services: [
-      "NCLT Corporate Litigation Our practice covers various corporate disputes before the NCLT including: Strike-Off Company Matters Representation in restoration applications for wrongfully struck-off companies Appeals for company restoration within the statutory period.",
-      "Shareholder Disputes Resolution of disputes between majority and minority shareholders Protection of shareholder rights and interests Intervention applications by directors and shareholders.",
-      "Oppression and Mismanagement Filing and defending petitions under Sections 241-242 of Companies Act  2013, Interim relief applications during pending proceedings, resolution of management deadlocks and corporate governance issues, protecting minority shareholder interests against majority oppression.",
+      "NCLT Corporate Litigation: Our practice covers various corporate disputes before the NCLT including: Strike-Off Company Matters Representation in restoration applications for wrongfully struck-off companies Appeals for company restoration within the statutory period.",
+      "Shareholder Disputes: Resolution of disputes between majority and minority shareholders Protection of shareholder rights and interests Intervention applications by directors and shareholders.",
+      "Oppression and Mismanagement: Filing and defending petitions under Sections 241-242 of Companies Act  2013, Interim relief applications during pending proceedings, resolution of management deadlocks and corporate governance issues, protecting minority shareholder interests against majority oppression.",
       "Our team provides strategic guidance through these complex proceedings while ensuring compliance with both IBC and Companies Act provisions. We leverage our extensive experience to deliver optimal outcomes for our clients in matters before NCLTs across jurisdictions."
     ]
   },
