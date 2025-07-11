@@ -36,7 +36,7 @@ export const expertiseItems = [
   },
   {
     id: "insolvency",
-    icon: "/icons/insolvency.png",
+    icon: "/icons/insolvency.jpg",
     title: "Insolvency and Bankruptcy Matters",
     modalImage: "/insolvency.png",
     modalTitle: "Insolvency and Bankruptcy Matters",
