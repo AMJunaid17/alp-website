@@ -18,7 +18,7 @@ export default function Disclaimer() {
 
 
  const handleAcknowledge = () => {
-//   localStorage.setItem('disclaimerAcknowledged', 'true');
+  localStorage.setItem('disclaimerAcknowledged', 'true');
   setShow(false);
 
   // Enable animations by removing the paused class

@@ -25,12 +25,12 @@ export default function Mission() {
               We are committed to upholding the highest ethical standards and delivering innovative solutions to complex legal challenges. 
               Our goal is to be a trusted advisor to our clients, delivering results with integrity and excellence while upholding the highest standards of professionalism.
             </p>
-            <button
+            {/* <button
               className="btn mx-auto mx-lg-0 d-block d-lg-inline-block px-4 py-2 rounded-0"
               style={{ backgroundColor: '#520E24', color: '#fff' }}
             >
               Learn More
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

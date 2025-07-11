@@ -75,7 +75,7 @@ export default function Clients() {
                 alt={`Client ${index + 1}`}
                 ref={(el) => (logosRef.current[index] = el)}
                 className="img-fluid client-logo"
-                style={{ maxHeight: "100px", objectFit: "contain" }}
+                style={{ maxHeight: "200px", objectFit: "contain" }}
               />
             </div>
           ))}

@@ -75,7 +75,7 @@ export default function ContactSection() {
                 </a>
               </p>
               <p>
-                <i className="bi bi-envelope-fill me-2"></i> hasnainalvi.hnlu@gmail.com
+                <i className="bi bi-envelope-fill me-2"></i> hasnain.alvi@alpartners.in
               </p>
               <p>
                 <i className="bi bi-geo-alt-fill me-2"></i> Chamber #317, 3rd Floor, Studio Complex,

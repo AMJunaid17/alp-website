@@ -250,6 +250,96 @@ body.pause-animations * {
   padding-left: 1rem;
 }
 
+/* ================================
+   New Hero Banner Styles
+   ================================ */
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* adjust height as needed */
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-heading {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  color: #520E24;
+  text-align: right;
+}
+
+.hero-heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 40vh; /* Optional: adjust for mobile */
+  }
+
+  .hero-heading {
+    position: static;     /* 👈 cancels absolute position */
+    transform: none;      /* 👈 cancels translate */
+    margin: 20px 15px;    /* 👈 spacing under image */
+    text-align: left;     /* 👈 align to left if you prefer */
+    color: #000;          /* 👈 optional: change color for better contrast if needed */
+  }
+
+  .hero-heading h1 {
+    font-size: 2rem;      /* 👈 smaller on mobile */
+  }
+}
+.modal-back-btn {
+  background: #fff;
+  color: #520E24;
+  border: 1px solid #520E24;
+  transition: all 0.2s ease;
+}
+
+.modal-back-btn:hover {
+  background: #520E24;
+  color: #fff;
+}
+
+
+/* ================================
+   Text Content Below Hero
+   ================================ */
+
+.detail-content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 15px;
+  text-align: left;
+}
+
+.detail-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.detail-content h5 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.detail-content ul {
+  padding-left: 1.5rem;
+}
+
+.detail-content li {
+  margin-bottom: 0.75rem;
+}
+
 /* Footer styles */
 .footer-custom {
   background-color: #520E24; 
@@ -309,4 +399,50 @@ body.pause-animations * {
   }
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1; /* This makes main-content expand to fill available space */
+}
+
+.footer-custom {
+  /* no extra flex needed – footer will be pushed down if main-content is short */
+}
+
+/* Expertisedetails page */
+.split-hero {
+  display: flex;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+}
+.maroon-block {
+  width: 50%;            /* Right half maroon */
+  background-color: #520E24;
+  z-index: 1;
+}
+.image-container {
+  width: 50%;            /* Left half image */
+  z-index: 0;
+}
+.image-container img.object-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.headline-overlay {
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 40%;
+  z-index: 2;
+}
