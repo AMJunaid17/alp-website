@@ -23,7 +23,7 @@ export const expertiseItems = [
     id: "commercial",
     icon: "/icons/commercial.png",
     title: "Commercial Litigation in Commercial Courts",
-    modalImage: "/Commercial.png",
+    modalImage: "/Commercial2.png",
     modalTitle: "Commercial Litigation in Commercial Courts",
     modalContent: [
       "Commercial litigation refers to legal disputes between businesses or between a business and an individual that arise in the course of commercial transactions. Commercial litigation can involve a wide range of legal issues, including contract disputes, business torts, and intellectual property disputes. Commercial courts are specialized courts that handle commercial disputes, including those arising from commercial transactions and business relationships in a time bound manner.",
@@ -70,7 +70,7 @@ export const expertiseItems = [
     id: "trademark",
     icon: "/icons/Trademark.png",
     title: "Trademark Prosecution and Litigation",
-    modalImage: "/Trademark.png",
+    modalImage: "/Trademark2.png",
     modalTitle: "Trademark Prosecution and Litigation",
     modalContent: [
       "We specialise in trademark registration, prosecution and litigation. We regularly handle and provide legal services related to the registration, protection, and enforcement of our client’s trademarks/copyrights.",
